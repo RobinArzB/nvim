@@ -1,3 +1,4 @@
+
 function ColorMyPencils(color)
     color = color or "rose-pine"
     vim.cmd.colorscheme(color)
@@ -21,6 +22,7 @@ return {
           floats = "dark",
         },
       })
+      ColorMyPencils()
     end
   },
 
@@ -29,7 +31,7 @@ return {
     as = "rose-pine",
     config = function()
       require('rose-pine').setup({
-        trasnparency = true,
+          transparency = true
       })
       ColorMyPencils()
     end
@@ -37,4 +39,3 @@ return {
 
 
 }
-
