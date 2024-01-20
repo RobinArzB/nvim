@@ -1,5 +1,5 @@
 ## NVIM Configuration
 
--- Todo -- 
+-- Todo --
 - [X] add essential plugins
-- [ ] LSP to configure with LSP-config (not using LSP-zero)
+- [X] LSP to configure with LSP-config (not using LSP-zero)
