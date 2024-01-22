@@ -1,5 +1,8 @@
 ## NVIM Configuration
 
--- Todo --
-- [X] add essential plugins
-- [X] LSP to configure with LSP-config (not using LSP-zero)
+my Neovim configuration using Lazy.nvim for plugins
+- git integration via git fugitive
+- Treesitter
+- LSP using Mason-LSP-config
+- snippets
+
