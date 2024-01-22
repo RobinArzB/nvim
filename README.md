@@ -6,3 +6,4 @@ my Neovim configuration using Lazy.nvim for plugins
 - LSP using Mason-LSP-config
 - snippets
 
+Heavily inspired by ThePrimeagen setup
