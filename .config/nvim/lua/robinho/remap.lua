@@ -37,3 +37,9 @@ vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 vim.keymap.set("n", "<leader><leader>", function()
     vim.cmd("so")
 end)
+
+if vim.fn.has('nvim') == 1 then
+  -- Make esc leave terminal mode
+  vim.api.nvim_set_keymap('t', '<leader><Esc>', '<C-\\><C-n>', {noremap = true})
+  vim.api.nvim_set_keymap('t', '<Esc><Esc>', '<C-\\><C-n>', {noremap = true})
+end
