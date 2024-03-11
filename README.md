@@ -7,3 +7,10 @@ my Neovim configuration using Lazy.nvim for plugins
 - snippets
 
 Heavily inspired by ThePrimeagen setup
+
+### TODO
+
+- Snippets by ft (custom for go, tf, ansible, etc.)
+- dap
+- notify
+- testing cody with sg.nvim

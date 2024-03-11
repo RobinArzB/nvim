@@ -7,6 +7,7 @@ return {
     },
     config = function()
         local neogen = require("neogen")
+
         neogen.setup({
             snippet_engine = "luasnip"
         })
@@ -18,5 +19,8 @@ return {
         vim.keymap.set("n", "<leader>nt", function()
             neogen.generate({ type = "type" })
         end)
+
     end,
+    -- Uncomment next line if you want to follow only stable versions
+    -- version = "*"
 }
