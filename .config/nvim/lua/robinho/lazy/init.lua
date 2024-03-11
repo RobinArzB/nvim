@@ -33,4 +33,5 @@ return {
 		end,
 	},
 
+    "mkitt/tabline.vim",
 }

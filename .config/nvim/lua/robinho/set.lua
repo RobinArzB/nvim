@@ -1,14 +1,16 @@
 local opt = vim.opt
 
+opt.guicursor = ""
+
 -- Cool floating window popup menu for completion on command line
 opt.pumblend = 17
 opt.wildmode = "longest:full"
 opt.wildoptions = "pum"
+
 opt.mouse = "a"
 opt.showcmd = true
 opt.cmdheight = 1
-opt.guicursor = ""
-opt.nu = true
+opt.number = true
 opt.relativenumber = true
 opt.hidden = true
 opt.hlsearch = true
@@ -17,7 +19,6 @@ opt.softtabstop = 4
 opt.shiftwidth = 4
 opt.expandtab = true
 
-opt.smartindent = true
 opt.breakindent = true
 opt.showbreak = string.rep(" ", 3) -- Make it so that long lines wrap smartly
 opt.linebreak = true
@@ -29,8 +30,11 @@ opt.backup = false
 opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
 opt.undofile = true
 opt.incsearch = true
+opt.showmatch = true
 opt.inccommand = "split"
-
+opt.autoindent = true
+opt.cindent = true
+opt.wrap = true
 opt.scrolloff = 10
 opt.signcolumn = "yes"
 opt.isfname:append("@-@")
@@ -57,3 +61,5 @@ end
 set_cursorline("WinLeave", false)
 set_cursorline("WinEnter", true)
 set_cursorline("FileType", false, "TelescopePrompt")
+-- set joinspaces
+opt.joinspaces = false -- Two spaces and grade school, we're done
