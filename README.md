@@ -14,3 +14,4 @@ Heavily inspired by ThePrimeagen setup
 - dap
 - notify
 - testing cody with sg.nvim
+- custom statusline
