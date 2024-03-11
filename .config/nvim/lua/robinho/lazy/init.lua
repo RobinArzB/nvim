@@ -34,4 +34,5 @@ return {
 	},
 
     "mkitt/tabline.vim",
+    { "tjdevries/express_line.nvim", dev = false },
 }
